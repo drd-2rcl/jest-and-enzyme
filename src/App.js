@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">Hi there!</div>
-  );
-}
+import Box from './components/comment_box'
+import List from './components/comment_list'
+
+const App = () => ([
+  <Box />,
+  <List />
+])
 
 export default App;
